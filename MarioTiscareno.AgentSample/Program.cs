@@ -72,7 +72,7 @@ public static class Program
         // Create a history store the conversation
         var history = new ChatHistory();
 
-        var greeting = "Hello! I'm a web powered AI assistant. I can browse web pages and answer questions based on their content. Just give me a URL and a question.\n" +
+        var greeting = "Hello! I'm a web powered AI assistant. I can browse web pages and answer questions based on their content. Just give me a URL and ask a question.\n" +
             "E.g: \"Based on the contents found on https://www.gutenberg.org/cache/epub/74/pg74.txt who were Tom's best friends?\"";
 
         history.AddAssistantMessage(greeting);
