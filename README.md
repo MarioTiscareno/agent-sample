@@ -4,7 +4,7 @@ This project demonstrates how to build a console-based AI agent using Semantic K
 
 ## Features
 
-- Retrieves context from web pages using the [WebPageReaderPlugin](cci:2://file:///c:/Users/mario/source/repos/agent-sample/MarioTiscareno.AgentSample/WebPageReaderPlugin.cs:15:0-149:1)
+- Retrieves context from web pages and stores embeddings to local Qdrant instance
 - Answers questions based on the retrieved context
 - Uses Semantic Kernel + Open AI for natural language processing
 - Tracing through command line prompt for easy debugging
