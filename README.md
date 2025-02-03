@@ -35,7 +35,7 @@ This project demonstrates how to build a console-based AI agent using Semantic K
 
 - .NET 8.0 or later
 - Open AI API key
-- Docker to host a local Qdrant instance.
+- Docker to host a local Qdrant instance
 
 ## License
 
