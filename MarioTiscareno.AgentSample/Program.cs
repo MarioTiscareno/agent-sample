@@ -46,7 +46,7 @@ public static class Program
         // Create a kernel with Azure OpenAI chat completion
         var builder = Kernel.CreateBuilder().AddOpenAIChatCompletion(model, openAIApiKey);
 
-        if (AnsiConsole.Prompt(new TextPrompt<bool>("Do you want to enable [green]tracing[/]? This can help visualize Semantic Kernel's internal steps")
+        if (AnsiConsole.Prompt(new TextPrompt<bool>("Do you want to enable [green]tracing[/]? This can help visualize Semantic Kernel's internal steps.")
             .AddChoice(false)
             .AddChoice(true)
             .DefaultValue(false)
