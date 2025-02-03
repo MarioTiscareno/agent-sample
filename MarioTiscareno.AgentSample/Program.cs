@@ -19,12 +19,12 @@ public static class Program
     private static string openAIApiKey = "REPLACE";
 
     private static readonly string[] models = [
-                "gpt-4o-mini",
-                "gpt-4o",
-                "o3-mini",
-                "o1-mini",
-                "o1",
-            ];
+        "gpt-4o-mini",
+        "gpt-4o",
+        "o3-mini",
+        "o1-mini",
+        "o1",
+    ];
 
     public static async Task Main()
     {
